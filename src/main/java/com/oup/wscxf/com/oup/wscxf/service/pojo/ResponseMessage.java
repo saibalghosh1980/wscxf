@@ -1,7 +1,5 @@
 package com.oup.wscxf.com.oup.wscxf.service.pojo;
 
-import java.util.Date;
-
 public class ResponseMessage {
 
     private String message;

@@ -11,8 +11,8 @@ public class HelloPortImpl implements Hello {
 
     @Override
     public ResponseMessage sayHello(RequestMessage requestMessage) {
-        ResponseMessage responseMessage=new ResponseMessage();
-        responseMessage.setMessage("Hello "+requestMessage.getName());
+        ResponseMessage responseMessage = new ResponseMessage();
+        responseMessage.setMessage("Hello " + requestMessage.getName());
         responseMessage.setDate(new Date());
         return responseMessage;
     }
