@@ -1,0 +1,11 @@
+
+target/test-classes/com/oup/wscxf/WscxfApplicationTests.class
+target/classes/application.properties
+target/classes/application.yml
+target/classes/com/oup/wscxf/com/oup/wscxf/service/Hello.class
+target/classes/com/oup/wscxf/com/oup/wscxf/service/HelloPortImpl.class
+target/classes/com/oup/wscxf/com/oup/wscxf/service/pojo/RequestMessage.class
+target/classes/com/oup/wscxf/com/oup/wscxf/service/pojo/ResponseMessage.class
+target/classes/com/oup/wscxf/WebSecurityConfig.class
+target/classes/com/oup/wscxf/WebServiceConfig.class
+target/classes/com/oup/wscxf/WscxfApplication.class
