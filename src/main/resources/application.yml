@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: wscxf
+cxf:
+  path: /services
