@@ -111,7 +111,7 @@
 	</root>
 	<logger name="org.apache.cxf" level="DEBUG">
 		<appender-ref ref="STDOUT" />
-		<appender-ref ref="FILE-AUDIT" />
+		<appender-ref ref="STASH" />
 	</logger>
 	<logger name="org.springframework" level="INFO">
 		<appender-ref ref="STDOUT" />
