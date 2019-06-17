@@ -9,3 +9,6 @@ target/classes/com/oup/wscxf/com/oup/wscxf/service/pojo/ResponseMessage.class
 target/classes/com/oup/wscxf/WebSecurityConfig.class
 target/classes/com/oup/wscxf/WebServiceConfig.class
 target/classes/com/oup/wscxf/WscxfApplication.class
+META-INF
+.settings
+classes

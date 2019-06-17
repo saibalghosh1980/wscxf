@@ -2,6 +2,7 @@ package com.oup.wscxf;
 
 import com.oup.wscxf.com.oup.wscxf.service.HelloPortImpl;
 import org.apache.cxf.Bus;
+import org.apache.cxf.feature.LoggingFeature;
 import org.apache.cxf.jaxws.EndpointImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,6 +19,9 @@ public class WebServiceConfig {
     public Endpoint endpoint() {
         EndpointImpl endpoint = new EndpointImpl(bus, new HelloPortImpl());
         endpoint.publish("/Hello");
+        LoggingFeature logFeature = new LoggingFeature();
+        logFeature.setPrettyLogging(true);
+        logFeature.initialize(bus);
         return endpoint;
     }
 }
